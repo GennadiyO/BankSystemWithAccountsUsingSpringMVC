@@ -3,7 +3,9 @@ package com.gazprombank.task1.dao;
 import java.util.List;
 
 import com.gazprombank.task1.model.Client;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface ClientDAO {
     public void addClient(Client client);
     public void updateClient(Client client);
